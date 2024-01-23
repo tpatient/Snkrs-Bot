@@ -55,7 +55,7 @@ NIKE_CHECKOUT_URL = "https://www.nike.com/checkout"
 NIKE_CART_API_URL = "https://secure-store.nike.com/us/services/jcartService"
 LOGGER = logging.getLogger()
 
-
+# just regular comment
 def run(driver, username, password, product_id, sku_id, shoe_size, login_time=None, release_time=None,
         page_load_timeout=None, screenshot_path=None, purchase=False, num_retries=None):
     driver.maximize_window()
